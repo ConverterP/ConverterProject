@@ -1,14 +1,3 @@
-/*console.log($.ajax);
-   var inputUrl =document.getElementById("videoLink")
-  var url = inputUrl.value
-   
-   function urlConverter(url){
-    const params = new URLSearchParams({
-      url: url,
-      format: 'mp3',
-    });
-    return params
-  }*/
 
   async function convertToMP3 () {
     console.log("done")
@@ -37,21 +26,7 @@ const requestOptions = {
   body: {}
 };
 
-/*fetch(`${apiUrl}?${params}`, requestOptions)
-  .then(response => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.json();
-  })
-  .then(data => {
-    console.log('Conversion successful',data.link);
-    document.getElementById("result").innerHTML = `Download link !, ${data.link}`
-    resultLink.href = data.link;
-    resultLink.style.display = "inline"; 
 
-
-  })*/
   try {
     const response = await fetch(`${apiUrl}?${params}`, requestOptions);
     if (!response.ok) {
