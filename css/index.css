@@ -1,0 +1,100 @@
+
+.navbar .nav-link {
+    color: #fff;
+}
+.navbar .navbar-brand {
+    color: #fff;
+}
+body{
+    font-family:'Montserrat',sans-serif;
+    height: 100vh;
+    color: aliceblue;
+    background: linear-gradient(45deg,#5d5c5c,#6887a5,#53a6f9);
+
+}
+.div-center{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: absolute;
+    text-align: center;
+    right: 25%;
+}
+.div-center1{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    position: absolute;
+    text-align: center;
+    right: 33%;
+}
+.search-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rem;
+}
+.content_title{
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.content_discription{
+    font-weight: 400px;
+    font-size: 20px;
+    opacity: 0,9;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.from{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.from .search-input{
+    max-width: 500px;
+    min-width: 300px;
+    height: 38px;
+    background: white;
+    outline: none;
+    border:none;
+    text-indent: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.from1 .search-input{
+    max-width: 500px;
+    min-width: 300px;
+    height: 38px;
+    background: white;
+    outline: none;
+    border:none;
+    text-indent: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.from .search-button{
+    width: 100px;
+    height: 30px;
+    background: rgb(108, 75, 75);
+    border: none;
+    outline: none;
+}
+.from1 .button{
+    width: 100px;
+    height: 30px;
+    background: rgb(108, 75, 75);
+    border: none;
+    outline: none;
+}
+
+#result{
+    color: black;
+}
+#resul{
+    color: black;
+}
